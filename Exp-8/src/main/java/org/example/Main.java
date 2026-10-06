@@ -1,10 +1,8 @@
 package org.example;
 
-import org.hibernate.SessionFactory;
-import org.hibernate.Session;
+import org.hibernate.*;
 import org.hibernate.cfg.Configuration;
-import org.example.entities.Student;
-import org.example.entities.StudentDetail;
+import org.example.entities.*;
 
 public class Main {
     public static void main(String[] args){
