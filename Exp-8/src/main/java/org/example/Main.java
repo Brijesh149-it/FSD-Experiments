@@ -23,9 +23,7 @@ public class Main {
             Student tom = new Student();
             tom.setStudent_name("Tom Cruise");
             tom.setStudentDetail(tomDetail);
-
             s.persist(tom);
-
             s.getTransaction().commit();
         } finally {
             s.close();
