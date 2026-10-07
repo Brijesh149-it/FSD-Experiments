@@ -9,7 +9,7 @@
 <h2>Student Details</h2>
 
 <p>Name: ${student.name}</p>
-<p>Age: ${student.email}</p>
+<p>Email: ${student.email}</p>
 
 </body>
 </html>
